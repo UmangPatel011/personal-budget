@@ -1,7 +1,7 @@
 {
   "name": "personal-budget",
   "version": "1.0.0",
-  "description": "The path to NGInx main folder: /usr/share/nginx/html",
+  "description": "Personal budget application",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fabionolasco/personal-budget.git"
+    "url": "https://github.com/fabionolasco/personal-budget.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["personal budget", "finance", "budgeting"],
+  "author": "Your Name",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fabionolasco/personal-budget/issues"

@@ -34,7 +34,7 @@ app.use(cors());
 
 app.get('/budget', (req, res) => {
   try {
-  const uri = 'mongodb+srv://pvenkat6:6TaCSPSr5MSp8Kar@cluster0.ipw5bph.mongodb.net/';
+  const uri = 'mongodb+srv://upatel176:6TaCSPSr5MSp8Kar@cluster0.ipw5bph.mongodb.net/';
   const client = new MongoClient(uri);
     client.connect();
     client.db('personal_budget').collection('budget').find().toArray()
